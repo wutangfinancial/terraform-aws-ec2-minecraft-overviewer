@@ -1,11 +1,11 @@
 provider "aws" {
-  version = "~> 1.57"
+  version = "~> 2.67"
   region = "us-east-1"
 }
 
 variable "my_ami" {
   type    = "string"
-  default = "ami-035be7bafff33b6b6"
+  default = "ami-ami-0e9089763828757e1"
 }
 
 variable "my_subnet" {
