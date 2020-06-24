@@ -9,10 +9,6 @@ resource "aws_instance" "overviewer" {
   instance_type = "t2.micro"
   disable_api_termination = true
   
-  tags {
-    Name = "overviewer"
-  }
-
   #provisioner "remote-exec" {
   #  inline = [
   #    "curl https://raw.githubusercontent.com/wutangfinancial/my_hab_bootstrap/master/bootstrap.sh | sudo bash",
