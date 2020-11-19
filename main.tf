@@ -27,6 +27,6 @@ resource "aws_route53_record" "overviewer" {
   name    = "overviewer.detwa.com"
   type    = "A"
   ttl     = "300"
-  records = ["${aws_instance.overviewer.public_ip}"]
+  records = [aws_instance.overviewer.public_ip]
 }
 

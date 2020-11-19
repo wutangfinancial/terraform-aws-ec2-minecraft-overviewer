@@ -1,16 +1,16 @@
 provider "aws" {
-  version = "~> 2.67"
+  version = "~> 3.0"
   region = "us-east-1"
 }
 
 variable "my_ami" {
   type    = string
-  default = "ami-ami-0e9089763828757e1"
+  default = "ami-0e9089763828757e1"
 }
 
 variable "my_subnet" {
   type    = string
-  default = "subnet-0050ef5ef92ba59e8"
+  default = "subnet-3805d964"
 }
 
 variable "my_key" {
